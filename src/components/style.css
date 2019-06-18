@@ -1,0 +1,40 @@
+.movie-list-container {
+  margin-top: 25px;
+}
+.movie-list-item {
+  margin-top: 10px;
+  color: white;
+  transition: background-color 1s;
+}
+
+.movie-list-item h4 {
+  padding-left: 25px;
+  padding-bottom: 5px;
+}
+
+.movie-list-item:hover {
+  background-color: gray !important;
+}
+
+.delete-movie-item {
+  float: right;
+  right: 20px;
+}
+
+#movie-add-form {
+  animation: 1s;
+  animation-name: slidein;
+}
+
+input#movieNext:active {
+  border-bottom: 1px solid dodgerblue !important;
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+  to {
+    margin-left: 1;
+  }
+}
